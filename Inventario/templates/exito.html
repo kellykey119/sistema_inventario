@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro exitoso</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+</head>
+<body>
+    <div class="success">
+        <h2>¡Equipo registrado exitosamente!</h2>
+        <a href="{% url 'registrar_equipo' %}">
+            <button>Registrar otro equipo</button>
+        </a>
+    </div>
+</body>
+</html>
